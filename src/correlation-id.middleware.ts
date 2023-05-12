@@ -1,5 +1,5 @@
 import { Injectable, NestMiddleware } from '@nestjs/common';
-import uuid from "uuid";
+import * as uuid from "uuid";
 
 /**
  * @param genFn a function that generates a suitable (random) correlation ID.
